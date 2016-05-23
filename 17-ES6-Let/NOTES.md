@@ -13,7 +13,7 @@ if (a > b) {
 }
 ```
 
-In the example above `let` declares a variable, just like you would do with `var`. During the Creation Phase, that variable is still placed into memory and set to 'undefined'; however, _you're not allowed to use it until the line of code is run during the Execution Phase that actually declares the value._
+In the example above `let` declares a variable, just like you would do with `var`. During the Creation Phase, that variable is still placed into memory and set to 'undefined'; however, **you're not allowed to use it until the line of code is run during the Execution Phase that actually declares the value.**
 
 ### Example 2
 ```
@@ -26,4 +26,4 @@ if (a > b) {
 
 The code above would result in an error, because you are attempting to use 'c' before it has been declared. The variable is in memory, but the engine won't allow it.
 
-Also, it is declared inside of a block (if statement, for loop, etc.). Because it is _block scoped_ the variable is only available while that block is running.
+Also, it is declared inside of a block (if statement, for loop, etc.). Because it is **block scoped** the variable is only available while that block is running.

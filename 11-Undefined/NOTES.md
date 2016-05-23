@@ -17,6 +17,6 @@ console.log(a);
 
 'Undefined' is actually a *special internal value* that the variable exists, but hasn't been set.
 
-_NEVER manually setup `a = undefined`_ Leaving this to JS will help you debug code. If manually setup an 'undefined' variable, it's really hard to tell if you set the variable or the JS engine did it.
+**NEVER manually setup `a = undefined`** Leaving this to JS will help you debug code. If manually setup an 'undefined' variable, it's really hard to tell if you set the variable or the JS engine did it.
 
-_It's always better to let 'undefined' = "I have never set this value"_
+**It's always better to let 'undefined' = "I have never set this value"**

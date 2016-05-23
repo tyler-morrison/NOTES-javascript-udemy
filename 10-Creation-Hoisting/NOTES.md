@@ -20,4 +20,4 @@ However, when it comes to variables, they operate differently. Assignments aren'
 
 All variables are initially setup as 'undefined'.
 
-_It is a bad idea to rely on 'hoisting' in your code_ You can run into trouble when you realize a value is 'undefined' when you're actually expecting a value.
+**It is a bad idea to rely on 'hoisting' in your code** You can run into trouble when you realize a value is 'undefined' when you're actually expecting a value.

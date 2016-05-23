@@ -1,6 +1,6 @@
 # Function Invocation
 
-_Invocation = Running or calling a function_
+**Invocation = Running or calling a function**
 In Javascript, we invoke a function by using parenthesis.
 
 ## Example 1
@@ -30,7 +30,7 @@ At this point the Creation / Execution phases are repeated for the more granular
 When the stack is complete, the complete context will be popped off the stack and the engine will proceed downward.
 
 ## Example 2
-_IMPORTANT: Lexically, the order of functions do not matter._ Functions are all placed into memory during the Creation phase. The order of invocation is what is most important.
+**IMPORTANT: Lexically, the order of functions do not matter.** Functions are all placed into memory during the Creation phase. The order of invocation is what is most important.
 
 ```
 function a() {

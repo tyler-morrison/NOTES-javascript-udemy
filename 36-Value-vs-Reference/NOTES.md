@@ -1,6 +1,6 @@
 ## By Value
 
-If you assign a primitive value to a variable `a` an address is created within the memory. Then, if we set `b = a` or we pass `a` to a function `function b(){...};`, a copy of the primitive value is made to a new place in the memory. _These variables become the same by copying the value to another memory location._
+If you assign a primitive value to a variable `a` an address is created within the memory. Then, if we set `b = a` or we pass `a` to a function `function b(){...};`, a copy of the primitive value is made to a new place in the memory. **These variables become the same by copying the value to another memory location.**
 
 ## By Reference
 

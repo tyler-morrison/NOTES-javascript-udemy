@@ -2,7 +2,7 @@
 
 To better understand objects, you have to understand how they reside within the memory. Recall that objects are name / value pairs that can contain children name / value pairs. An object can have the following...
 
-_OBJECT_
+**OBJECT**
 * Primitive (property)
 * Object    (property)
 * Function  (method)

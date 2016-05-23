@@ -5,7 +5,7 @@ var a;
 console.log(a);
 // Thus, you get 'undefined' from the line above.
 
-function define_test(a) {
+function defineTest(a) {
     if (a === undefined) {
         console.log('a is undefined');
     } else {
@@ -13,10 +13,10 @@ function define_test(a) {
     }
 }
 
-define_test(a);
+defineTest(a);
 
 a = "Hello World!";
 
 console.log(a);
 
-define_test(a);
+defineTest(a);
