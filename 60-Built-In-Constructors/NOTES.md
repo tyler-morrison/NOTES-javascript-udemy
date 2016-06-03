@@ -11,7 +11,7 @@ This can be very useful if you were building a library and wanted to add a featu
 Built-in constructors for primitives are also dangerous and should be used sparingly.
 
 ### Example
-```
+```javascript
 var a = 3;             // First we set ‘a’ to a primitive.
 var b = new Number(3); // Then we set ‘b’ to an object via Number();.
 a == b                 // true - due to coercion.

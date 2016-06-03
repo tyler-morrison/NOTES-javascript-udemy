@@ -5,7 +5,7 @@
 This is different from other programming languages like Java or C#, which use *Static Typing*. For example, `bool isNew = 'hello'; // Results in an error`.
 
 ## Dynamic Typing Example
-```
+```javascript
 var isNew = true; // no errors
 isNew = 'yup!';
 isNew = 1;

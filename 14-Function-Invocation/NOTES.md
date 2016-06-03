@@ -4,7 +4,7 @@
 In Javascript, we invoke a function by using parenthesis.
 
 ## Example 1
-```
+```javascript
 function b() {}
 
 function a() {
@@ -32,7 +32,7 @@ When the stack is complete, the complete context will be popped off the stack an
 ## Example 2
 **IMPORTANT: Lexically, the order of functions do not matter.** Functions are all placed into memory during the Creation phase. The order of invocation is what is most important.
 
-```
+```javascript
 function a() {
   b();
   var c;

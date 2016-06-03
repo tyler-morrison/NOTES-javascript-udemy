@@ -3,7 +3,7 @@
 Even after a function has been executed an popped off of the Execution Stack, any functions created within will still have an external reference to what is left in memory. Although a function may be gone, what's left in memory from its execution context will still remain.
 
 ## Example 1
-```
+```javascript
 function greet(whattosay) {
     return function(name) {
         console.log(whattosay + ' ' + name);
@@ -24,7 +24,7 @@ We say that the execution context has **closed in** its outer variables that inn
 It doesn’t matter *when* we execute a function, Javascript will make sure that a function's scope is always in tact and we can access to the variables we should, regardless of whether or not the outer function has terminated.
 
 ## Example 2
-```
+```javascript
 function buildFunctions() {
     var arr = [];
 

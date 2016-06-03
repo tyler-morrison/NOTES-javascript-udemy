@@ -8,7 +8,7 @@ Back when JS was first being developed, there were programming language ‘wars�
 
 Although ‘Javascript’ sounds like Java and even *looks* a little like Java, the two are very different. In this same vein, one of the elements that was added to the code to market JS to Java developers was this line of code...
 
-```
+```javascript
 var john = new Person();
 ```
 

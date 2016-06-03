@@ -5,7 +5,7 @@
 It is **inspired** by object literal syntax, but a common mistake is to think they're the exact same thing. This leads to a few common mistakes...
 
 Data used to be sent across the Internet in XML format...
-```
+```xml
 <object>
   <property>Something</property>
   <anotherProperty>Else</anotherProperty>

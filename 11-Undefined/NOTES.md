@@ -2,13 +2,13 @@
 
 This term can be confusing because if we boil things down simply...
 
-```
+```javascript
 var a;
 console.log(a);
 // Output = 'undefined'
 ```
 
-```
+```javascript
 console.log(a);
 // Output = Uncaught ReferenceError: a is not defined
 ```

@@ -2,7 +2,7 @@
 
 Classes in other programming languages are extremely popular techniques for defining objects. JS doesn’t support classes in its current state; however, they will be introduced with ES6.
 
-```
+```javascript
 class Person {
   constructor(firstname, lastname) {
     this.firstname = firstname;
@@ -23,7 +23,7 @@ The new constructor will act a lot like the function constructors we’ve alread
 
 # How to Set Prototype in ES6
 
-```
+```javascript
 class InformalPerson extends Person {
     constructor(firstname, lastname) {
         super(firstname, lastname);

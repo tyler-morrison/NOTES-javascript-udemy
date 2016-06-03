@@ -4,7 +4,7 @@
 How they relate to one another inside the memory.
 
 ## Example 1
-```
+```javascript
 function b() {
   var myVar
 }

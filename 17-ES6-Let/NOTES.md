@@ -7,7 +7,7 @@
 The new term `let` is being introduced as a way to declare variables; however, it's not necessarily replacing `var`. However, `let` allows Javascript to do something called *block scoping*.
 
 ### Example 1
-```
+```javascript
 if (a > b) {
   let c = true;
 }
@@ -16,7 +16,7 @@ if (a > b) {
 In the example above `let` declares a variable, just like you would do with `var`. During the Creation Phase, that variable is still placed into memory and set to 'undefined'; however, **you're not allowed to use it until the line of code is run during the Execution Phase that actually declares the value.**
 
 ### Example 2
-```
+```javascript
 console.log(c);
 
 if (a > b) {
